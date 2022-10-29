@@ -1,0 +1,103 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:20vh auto;
+    height:60vh;
+    width:60vw;
+    max-width:100%;
+    color:white;
+    margin-left: -1%;
+}
+.login-small{
+    padding:.5rem;
+    color: grey;
+}
+.login-container{
+    box-shadow: 0px 0px 1px 0px grey;
+     /* background-color: var(--bg-color);  */
+     background: #ffffff;
+    padding:3rem;
+    border-radius:20px;
+}
+.login-header{
+    font-size:3rem;
+    text-align:center;
+    color: #FF9900;
+    
+}
+.login-subheader{
+    font-size:1.4rem;
+    text-align: center;
+    color: grey;
+}
+
+.login-dataform{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.login-dataformemail{
+padding:.3rem;
+margin:1rem 0;
+border-radius:3px;
+outline:none;
+height: 1.5rem;
+width: 100%;
+border:1px solid #b7b7b7;
+color:black;
+background-color:#f1f1f1;
+
+}
+
+.login-dataformpass{
+    
+    padding:.3rem;
+    margin:1rem 0;
+    height: 1.5rem;
+    width:100%;
+    border-radius:3px;
+    outline:none;
+    border:1px solid #b7b7b7;
+    color:black;
+    background-color:#f1f1f1;
+    position: relative;
+}
+
+.login-showpass{
+
+    color: grey;
+position:fixed;
+    margin-top: 88px;
+left:35%;
+padding:2px;
+
+vertical-align: middle;
+cursor: pointer;
+}
+.login-dataformbtn{
+
+padding:.4rem;
+border-radius:8px;
+border:2px solid white;
+background-color:#ffb631;
+color:white;
+margin:1rem auto;
+width:50%;
+height:2.5rem;
+outline:none;
+    font-weight: bold;
+}
+.login-small{
+    color: grey;
+}
+.create-account{
+    color: #ffa500;
+}
+
+
+

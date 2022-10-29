@@ -1,0 +1,130 @@
+.register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: -41%;
+    margin-top: 6%;
+
+}
+.register-small{
+padding:.5rem;
+
+}
+.register-container{
+    box-shadow: 0px 0px 1px 0px grey;
+    margin-top:3rem;
+    background: white;
+    padding:2rem 5rem;
+    border-radius:10px;
+}
+.register-header{
+    font-size:3rem;
+    text-align:center;
+    color: #FF9900;
+    
+}
+.register-subheader{
+    font-size:1.4rem;
+    text-align: center;
+    color: grey;
+}
+
+.register-dataform{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.register-dataformemail{
+padding:.3rem;
+margin:.5rem 0;
+border-radius:3px;
+outline:none;
+height: 1.5rem;
+width: 100%;
+    border:1px solid #b7b7b7;
+color:black;
+background-color:#f1f1f1;
+}
+
+.register-dataformpass{
+
+    padding:.3rem;
+    margin:.5rem 0;
+    height: 1.5rem;
+    width:100%;
+    border-radius:3px;
+    outline:none;
+    border:1px solid #b7b7b7;
+    color:black;
+    background-color:#f1f1f1;
+}
+
+.register-dataformbtn{
+
+padding:.3rem;
+border-radius:8px;
+    border:1px solid #ffb631;
+background-color:#ffb631;
+margin:.5rem auto;
+width:50%;
+height:2.5rem;
+outline:none;
+    color: white;
+font-weight: bold;
+}
+.register-dataformselect{
+    
+    padding:.3rem;
+    margin:.5rem 0;
+    width:105%;
+    border-radius:3px;
+    outline:none;
+    border:1px solid #b7b7b7;
+    color:black;
+    height:2rem;
+    background-color:#f1f1f1;
+
+}
+.register-showpass{
+    position:fixed;
+    margin-top:10%;
+    left:34%;
+
+    border-radius:2px;
+    color:white;
+    vertical-align: middle;
+    cursor: pointer;
+    color: grey;
+    }
+
+.register-showcfpass{
+        position:fixed;
+        top:62%;
+        left:34%;
+        color: grey;
+        padding:2px;
+        border-radius:2px;
+        vertical-align: middle;
+        cursor: pointer;
+        }
+.go-reg{
+    color: #ffb631;
+}
+.register-small{
+    color: grey;
+}
+.astronaut{
+    margin-left: 54%;
+    margin-top: -26%;
+    height: 500px;
+    width: 500px;
+    box-sizing: border-box;
+    overflow: hidden;
+    transform: translatey(0px);
+    animation: float 6s ease-in-out infinite;
+}
+
