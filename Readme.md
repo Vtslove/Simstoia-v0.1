@@ -1,3 +1,2 @@
-YOUTUBE TUTORIAL :  
+Simstoria v0.1
 
-https://www.youtube.com/playlist?list=PLuJNuRXgSniikTVQl-aCbeniDM_kkDBA2
